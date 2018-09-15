@@ -1,3 +1,4 @@
+import datetime
 nums = { 0:'null', 1:'eins', 2:'zwei', 3:'drei', 4:'fier', 5:'fünf', 6:'sechs', 7:'sieben', 8:'acht', 9:'neun' }
 
 def inputChecker(func):
@@ -44,3 +45,6 @@ if __name__ == '__main__':
     
     data = input('Input \'digit\' or \'digit conversion\' using space key: ')
     print(converter(data))
+    f = open('log.txt', 'a')
+    f.write(datetime.datetime.now().isoformat() + ' was added ' + data + ' converted into ' + converter(data) + ' \n')
+    f.close()
