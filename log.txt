@@ -1,0 +1,4 @@
+2018-09-15T17:36:10.414346 was added 6 converted into sechs 
+2018-09-15T17:36:34.228818 was added 1 oct converted into 0o1 
+2018-09-15T17:36:56.613015 was added 9 bin converted into 0b1001 
+2018-09-15T17:37:38.844495 was added gh converted into First argument is not an integer 
